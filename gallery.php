@@ -19,7 +19,7 @@ include("includes/header.php");
                 <h2>Gallery</h2>
             </div><!-- end of .col -->
             <div class="col col-6">
-                <img src="#"/>
+                <p>This page is currently unavailable.</p>
             </div><!-- end of .col -->
         </div><!-- end of .container -->
     </div><!-- end of .content -->

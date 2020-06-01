@@ -14,7 +14,7 @@ body {
 }
 
 body {
-    color: #342f2f;
+    color: #514e4e;
     font-size: 14px;
     font-family: sans-serif;
     line-height: 1.75;
@@ -23,6 +23,10 @@ body {
 ul,
 ol {
     list-style: none;
+}
+
+ol {
+    list-style-type: decimal;
 }
 
 h6,
@@ -57,6 +61,7 @@ h4 {
     margin-bottom: 16px;
 }
 
+ul,
 p {
     margin: 0;
     margin-bottom: 28px;
@@ -74,24 +79,28 @@ a {
     padding: 0;
     padding-top: 40px;
     padding-bottom: 40px;
+    position: relative;
     background: #f8f8f8;
 }
 
 #site-logo {
-    flex: none;
+    float: left;
     width: 300px;
 }
 
 #site-menu {
-    flex: none;
+    float: right;
     width: calc(100%-300px);
+    position: relative;
 }
 
 #main-menu {
     width: 100%;
     height: 100px;
     display: flex;
+    text-align: right;
     align-items: center;
+    justify-content: right;
 }
 
 .menu-list li {
@@ -156,6 +165,19 @@ a {
     max-width: 100%;
     margin: auto;
     display: flex;
+    position: relative;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: table;
+    position: relative;
+}
+
+.row::after {
+    clear: both;
 }
 
 .col {
@@ -203,6 +225,38 @@ a {
     padding-bottom: 100px;
 }
 
+/* Form Control */
+input,
+select,
+textarea,
+button {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-group {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    border: 1px solid #d5d3d3;
+    padding: 14px;
+}
+
+.btn {
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 /* Slideshow */
 .slideshow {
     width: 100%;
@@ -214,18 +268,21 @@ a {
 }
 
 .slide {
+    width: 100%;
+    height: 600px;
     display: none;
     position: relative;
 }
 
 .caption {
-    color: green;
+    color: #d5d3d3;
     width: 100%;
     bottom: 8px;
     z-index: 10;
-    color: #f2f2f2;
-    font-size: 16px;
+    font-size: 60px;
+    font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
     padding: 8px 12px;
     position: absolute;
 }
@@ -239,6 +296,7 @@ a {
     cursor: pointer;
     position: absolute;
     font-size: 18px;
+    font-weight: bold;
     transition: 0.6s ease;
 }
 

@@ -9,9 +9,9 @@
 <body>
 <div id="app" class="site">
     <header id="site-header">
-        <div class="container">
+        <div class="row">
             <div id="site-logo">
-                <a href="<?php echo(SITE_HOME); ?>"><img src="assets/logo-old.png"/></a>
+                <a href="<?php echo(SITE_HOME); ?>"><img src="assets/logo-black.png"/></a>
             </div><!-- end of .#site-logo -->
             <div id="site-menu">
                 <ul id="main-menu" class="menu-list">

@@ -15,13 +15,13 @@ include("includes/header.php");
 
     <div id="home" class="main-content">
         <div id="slideshow" class="slideshow">
-            <div class="slide">
+            <div class="slide fade">
                 <img src="assets/orphan.jpg"/>
-                <div class="caption">Something Text</div>
+                <div class="caption">Social Development</div>
             </div><!-- end of .slideshow -->
-            <div class="slide">
+            <div class="slide fade">
                 <img src="assets/education.jpg"/>
-                <div class="caption">Something Text</div>
+                <div class="caption">Education</div>
             </div><!-- end of .slideshow -->
             <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
             <a class="next" onclick="moveSlide(1)">&#10095;</a>
