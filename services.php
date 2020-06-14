@@ -19,7 +19,7 @@ include("includes/header.php");
     <div id="about" class="content">
         <div class="container">
             <div class="col col-6">
-                <img src="#"/>
+                <img src="assets/services-hands.jpg"/>
             </div><!-- end of .col -->
             <div class="col col-6">
                 <h2>Services</h2>

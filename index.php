@@ -16,12 +16,24 @@ include("includes/header.php");
     <div id="home" class="main-content">
         <div id="slideshow" class="slideshow">
             <div class="slide fade">
-                <img src="assets/orphan.jpg"/>
-                <div class="caption">Social Development</div>
+                <img src="assets/skills-development.jpg"/>
+                <div class="caption">Skills Development</div>
             </div><!-- end of .slideshow -->
             <div class="slide fade">
                 <img src="assets/education.jpg"/>
                 <div class="caption">Education</div>
+            </div><!-- end of .slideshow -->
+            <div class="slide fade">
+                <img src="assets/orphan.jpg"/>
+                <div class="caption">Social Development</div>
+            </div><!-- end of .slideshow -->
+            <div class="slide fade">
+                <img src="assets/access-to-resources.jpg"/>
+                <div class="caption">Access to Resources</div>
+            </div><!-- end of .slideshow -->
+            <div class="slide fade">
+                <img src="assets/economic-development.jpg"/>
+                <div class="caption">Economic Development</div>
             </div><!-- end of .slideshow -->
             <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
             <a class="next" onclick="moveSlide(1)">&#10095;</a>
@@ -29,6 +41,9 @@ include("includes/header.php");
         <div id="controls" style="text-align:center;">
             <span class="circle" onclick="currentSlide(1)"></span>
             <span class="circle" onclick="currentSlide(2)"></span>
+            <span class="circle" onclick="currentSlide(3)"></span>
+            <span class="circle" onclick="currentSlide(4)"></span>
+            <span class="circle" onclick="currentSlide(5)"></span>
         </div><!-- end of # -->
         <script src="src/slideshow.js"></script>
     </div><!-- end of .main-content -->
@@ -45,23 +60,33 @@ include("includes/header.php");
     <div id="services" class="content">
         <div class="container">
             <div class="col col-2">
-                <h4>Skills Development</h4>
+                <header class="section-header">
+                    <h4>Skills Development</h4>
+                </header>
                 <p>Skills development to empower people for employment, entrepreneurship and job creation. Access to employment, learnerships and internships. <a href="#">Learn more</a></p>
             </div><!-- end of .col -->
             <div class="col col-2">
-                <h4>Education</h4>
+                <header class="section-header">
+                    <h4>Education</h4>
+                </header>
                 <p>Access to quality education that complements the education system in the country and the world. <a href="services.php">Learn more</a></p>
             </div><!-- end of .col -->
             <div class="col col-2">
-                <h4>Social Developer</h4>
+                <header class="section-header">
+                    <h4>Social Developer</h4>
+                </header>
                 <p>Establishment of environments that allow for recreation, support, giving back and empowerment. <a href="services.php">Learn more</a></p>
             </div><!-- end of .col -->
             <div class="col col-2">
-                <h4>Access to Resources</h4>
+                <header class="section-header">
+                    <h4>Access to Resources</h4>
+                </header>
                 <p>Ensure people, youth and old have access to essential resources for self-development and succes. <a href="services.php">Learn more</a></p>
             </div><!-- end of .col -->
             <div class="col col-2">
-                <h4>Economic Development</h4>
+                <header class="section-header">
+                    <h4>Economic Development</h4>
+                </header>
                 <p>Capacitate and empower SMMEs, NPOs, NGOs and Entrepreneurs through necessary support required for succes. <a href="services.php">Learn more</a></p>
             </div><!-- end of .col -->
         </div><!-- end of .container -->

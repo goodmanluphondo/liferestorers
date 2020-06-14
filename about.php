@@ -49,7 +49,7 @@ include("includes/header.php");
                 </ul>
             </div><!-- end of .col -->
             <div class="col col-6">
-                <img src="assets/page-hands.jpg"/>
+                <img src="assets/about-hands.jpg"/>
             </div><!-- end of .col -->
         </div><!-- end of .container -->
     </div><!-- end of .content -->
