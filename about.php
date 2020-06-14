@@ -7,6 +7,9 @@
  * 
  */
 
+/** Page Title */
+$title = "About Us";
+
 /** Load Configurations */
 require_once("config.php");
 

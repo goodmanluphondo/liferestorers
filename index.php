@@ -30,6 +30,7 @@ include("includes/header.php");
             <span class="circle" onclick="currentSlide(1)"></span>
             <span class="circle" onclick="currentSlide(2)"></span>
         </div><!-- end of # -->
+        <script src="src/slideshow.js"></script>
     </div><!-- end of .main-content -->
     <div id="our-work" class="content">
         <div class="container">
@@ -49,19 +50,19 @@ include("includes/header.php");
             </div><!-- end of .col -->
             <div class="col col-2">
                 <h4>Education</h4>
-                <p>Access to quality education that complements the education system in the country and the world. <a href="#">Learn more</a></p>
+                <p>Access to quality education that complements the education system in the country and the world. <a href="services.php">Learn more</a></p>
             </div><!-- end of .col -->
             <div class="col col-2">
                 <h4>Social Developer</h4>
-                <p>Establishment of environments that allow for recreation, support, giving back and empowerment. <a href="#">Learn more</a></p>
+                <p>Establishment of environments that allow for recreation, support, giving back and empowerment. <a href="services.php">Learn more</a></p>
             </div><!-- end of .col -->
             <div class="col col-2">
                 <h4>Access to Resources</h4>
-                <p>Ensure people, youth and old have access to essential resources for self-development and succes. <a href="#">Learn more</a></p>
+                <p>Ensure people, youth and old have access to essential resources for self-development and succes. <a href="services.php">Learn more</a></p>
             </div><!-- end of .col -->
             <div class="col col-2">
                 <h4>Economic Development</h4>
-                <p>Capacitate and empower SMMEs, NPOs, NGOs and Entrepreneurs through necessary support required for succes. <a href="#">Learn more</a></p>
+                <p>Capacitate and empower SMMEs, NPOs, NGOs and Entrepreneurs through necessary support required for succes. <a href="services.php">Learn more</a></p>
             </div><!-- end of .col -->
         </div><!-- end of .container -->
     </div><!-- end of #services -->

@@ -10,6 +10,9 @@
 /** Load Configurations */
 require_once("config.php");
 
+/** Page Title */
+$title = "Services";
+
 include("includes/header.php");
 ?>
 

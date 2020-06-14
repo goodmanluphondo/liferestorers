@@ -7,6 +7,9 @@
  * 
  */
 
+/** Page Title */
+$title = "Contact Us";
+
 /** Load Configurations */
 require_once("config.php");
 
@@ -41,7 +44,7 @@ include("includes/header.php");
                 <p>Alternatively, you can use the contact form on the right to get in touch.</p>
             </div><!-- end of .col -->
             <div class="col col-6">
-                <form name="contactform" id="contactform" method="POST">
+        <form name="contactform" id="contactform" method="POST">
 					<div class="row form-group">
 						<div class="col col-6">
 							<label for="contact_forename">First Name<br/>
