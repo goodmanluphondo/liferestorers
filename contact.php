@@ -46,12 +46,12 @@ include("includes/header.php");
             <div class="col col-6">
         <form name="contactform" id="contactform" method="POST">
 					<div class="row form-group">
-						<div class="col col-6">
+						<div class="col col-half">
 							<label for="contact_forename">First Name<br/>
 							<input type="text" name="contact_forename" class="form-control" id="contact_forename"></label>
 							</label>
 						</div>
-						<div class="col col-6">
+						<div class="col col-half">
 							<label for="contact_forename">Last Name<br/>
 							<input type="text" name="contact_forename" class="form-control" id="contact_forename"></label>
 							</label>
